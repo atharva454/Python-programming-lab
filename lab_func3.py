@@ -1,8 +1,8 @@
-def ArmN(x):
-  sum=0
+def ArmN(x):    #function declaration
+  sum=0         
   t=x 
 
-  while (t>0): 
+  while (t>0):  #while loop starts 
    d=t%10
    sum+=d**3
    t=t//10
