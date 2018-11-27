@@ -9,25 +9,25 @@ while 1:
     msgbox("Welcome to E-Bazaar!")
 
     msg ="In Which Category Do You Wish To Shop Today?"
-    title = "Categories"
+    title = "Categories"                                                        #gives title to the msg box
     choices = ["Appliances","Books", "Fashion","Laptops","Mobiles", "Watches"]
     choice = choicebox(msg, title, choices)
     
     if choice=="Appliances":
         msg ="Which Appliance/s Do You Wish To Shop?"
-        title = "Types of Appliances"
+        title = "Types of Appliances"                                           #gives title to the msg box                                                 
         choices = ["Air Conditioners","Kitchen & Home Appliances","Refrigerators", "Washing Machines"]
         choice = choicebox(msg, title, choices)
 
         if choice=="Air Conditioners":
             msg ="Which Air Conditioner Do You Wish To Buy?"
-            title = "Types of Air Conditioners"
+            title = "Types of Air Conditioners"                               #gives title to the msg box
             choices = ["Hitachi","LG","Samsung","Voltas","Whirlpool"]
             choice = choicebox(msg, title, choices)
 
             if choice=="Hitachi":
                 msg ="Which Vendor do You Prefer?"
-                title = "List Of Vendors"
+                title = "List Of Vendors"                                          #gives title to the msg box
                 choices = [str(choice)+" Store->50000","Croma->80000","Reliance Digital->65000","Vijay Sales->75000"]
                 choice = choicebox(msg, title, choices)
      
@@ -45,123 +45,123 @@ while 1:
 
             elif  choice=="LG":
                 msg ="Which Vendor do You Prefer?"
-                title = "List Of Vendors"
+                title = "List Of Vendors"                                                   #gives title to the msg box
                 choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                 sum=80000
                 choice = choicebox(msg, title, choices)
 
             elif  choice=="Samsung":
                 msg ="Which Vendor do You Prefer?"
-                title = "List Of Vendors"
+                title = "List Of Vendors"                                                    #gives title to the msg box
                 choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                 choice = choicebox(msg, title, choices)
 
             elif  choice=="Voltas":
                 msg ="Which Vendor do You Prefer?"
-                title = "List Of Vendors"
+                title = "List Of Vendors"                                                    #gives title to the msg box
                 choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                 choice = choicebox(msg, title, choices)
 
             elif  choice=="Whirlpool":
                 msg ="Which Vendor do You Prefer?"
-                title = "List Of Vendors"
+                title = "List Of Vendors"                                                        #gives title to the msg box
                 choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                 choice = choicebox(msg, title, choices)
 
 
         elif choice=="Kitchen & Home Appliances":
             msg ="Where Do Wish To Shop?"
-            title = "Types of Appliances"
+            title = "Types of Appliances"                                           #gives title to the msg box
             choices = ["Kitchen","Home"]
             choice = buttonbox(msg, title, choices)
 
             if choice=="Kitchen":
                 msg ="Which Kitchen Appliance  Do You Wish To Buy?"
-                title = "Types of Kitchen Appliance"
+                title = "Types of Kitchen Appliance"                                  #gives title to the msg box
                 choices = ["Coffee Machines","Electric Kettles","Food Processors","Induction Cooktops","Juicers"]
                 choice = choicebox(msg, title, choices)
 
                 if choice=="Coffee Machines":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                               #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Electric Kettles":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                  #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Food Processors":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                   #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Induction Cooktops":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                 #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Juicers":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                    #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
             else:
                 msg ="Which Home Appliance  Do You Wish To Buy?"
-                title = "Types of Home Appliance"
+                title = "Types of Home Appliance"                                                   #gives title to the msg box
                 choices = ["Air Coolers","Iron","Sweing Machines","Vaccum Cleaners","Water Purifiers"]
                 choice = choicebox(msg, title, choices)
 
                 if choice=="Air Coolers":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                      #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Iron":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Sweing Machines":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                  #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Vaccum Cleaners":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                  #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
                 elif  choice=="Water Purifiers":
                     msg ="Which Vendor do You Prefer?"
-                    title = "List Of Vendors"
+                    title = "List Of Vendors"                                                 #gives title to the msg box
                     choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                     choice = choicebox(msg, title, choices)
 
         if choice=="Refrigerators":
                     msg ="Which Refrigerators Do You Wish To Buy?"
-                    title = "Types of Refrigerators"
+                    title = "Types of Refrigerators"                                            #gives title to the msg box
                     choices = ["Godrej","LG","Panasonic","Samsung","Whirlpool"]
                     choice = choicebox(msg, title, choices)
 
                     if choice=="Godrej":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                              #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
                     elif  choice=="LG":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                             #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
@@ -173,61 +173,61 @@ while 1:
 
                     elif  choice=="Samsung":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                       #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
                     elif  choice=="Whirlpool":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                            #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
         if choice=="Washing Machines":
                     msg ="Which Washing Machines Do You Wish To Buy?"
-                    title = "Types of Washing Machines"
+                    title = "Types of Washing Machines"                                    #gives title to the msg box
                     choices = ["Godrej","LG","Panasonic","Sansui","Whirlpool"]
                     choice = choicebox(msg, title, choices)
 
                     if choice=="Godrej":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                             #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
                     elif  choice=="LG":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                                    #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
                     elif  choice=="Panasonic":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                                       #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
                     elif  choice=="Sansui":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                                           #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
                     elif  choice=="Whirlpool":
                         msg ="Which Vendor do You Prefer?"
-                        title = "List Of Vendors"
+                        title = "List Of Vendors"                                                           #gives title to the msg box
                         choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
                         choice = choicebox(msg, title, choices)
 
     if choice=="Books":
         msg ="Which Book/s Do You Wish To Shop?"
-        title = "Books By Genre"
+        title = "Books By Genre"                                                                            #gives title to the msg box
         choices = ["Art","Biography","Children's", "Classics","Fiction","History","Horror","Mystery","Poetry","Psychology","Romance","Science","Science Fiction","Thriller","Travel"]
         choice = choicebox(msg, title, choices)
 
         if choice=="Art":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                      #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
@@ -239,61 +239,61 @@ while 1:
 
         elif  choice=="Children's":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                           #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Classics":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                          #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Fiction":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                           #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         if choice=="History":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                            #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Horror":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                             #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Mystery":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                             #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Poetry":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                            #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Psychology":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                             #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         if choice=="Romance":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                              #gives title to the msg box
             choices = ["Crossword","Library","Reliance Digital"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Science":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                  #gives title to the msg box                                                    
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
@@ -305,115 +305,115 @@ while 1:
 
         elif  choice=="Thriller":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                       #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Travel":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                  #gives title to the msg box
             choices = ["Crossword","Library","The Book Store"]
             choice = choicebox(msg, title, choices)
 
     if choice=="Fashion":
         msg ="Where Do Wish To Shop?"
-        title = "Shop For?"
+        title = "Shop For?"                                                                                 #gives title to the msg box
         choices = ["Children's Fashion","Men's Fashion","Women's Fashion"]
         choice = buttonbox(msg, title, choices,image="Fashion.png")
 
         if choice=="Children's Fashion":
             msg ="Which Vendor do You Prefer?"
-            title = "Sop From?"
+            title = "Sop From?"                                                                        #gives title to the msg box
             choices = ["Chicco","Cartoon Network","Ginni & Jony","Lilliput","Skip Hop"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Men's Fashion":
             msg ="Which Vendor do You Prefer?"
-            title = "Shop From?"
+            title = "Shop From?"                                                                             #gives title to the msg box
             choices = ["Allen Solly","Arrow","Benetton","Levi's","Park Avenue","Pepe Jeans","Raymond","Wrangler"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Women's Fashion":
             msg ="Which Vendor do You Prefer?"
-            title = "Shop From?"
+            title = "Shop From?"                                                                              #gives title to the msg box
             choices = ['Chanel', 'Dolce & Gabbana', 'Giorgio Armani', 'Gucci', 'Hugo Boss', 'Louis Viutton', 'Prada', 'Tiffany & Co.']
             choice = choicebox(msg, title, choices)
 
     if choice=="Laptops":
         msg ="Which Appliance/s Do You Wish To Shop?"
-        title = "Famous Laptop Companies"
+        title = "Famous Laptop Companies"                                                                   #gives title to the msg box
         choices = ['Acer', 'Apple', 'Asus', 'Dell', 'Hewlett-Packard', 'Lenevo', 'MSI', 'Microsoft']
         choice = choicebox(msg, title, choices)
 
         if  choice=="Acer":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                      #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Apple":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                     #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Acer":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                   #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Asus":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                   #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Dell":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                    #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Hewlett-Packard":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                     #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Lenevo":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                   #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="MSI":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                      #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Microsoft":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                        #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
     if choice=="Mobiles":
         msg ="Popular Mobile Brands"
-        title = "Which Brand Do you Want?"
+        title = "Which Brand Do you Want?"                                                                        #gives title to the msg box
         choices = ['Apple', 'Gionee', 'Honor', 'Huawei', 'LG', 'Mi', 'Micromax', 'Motorola', 'Nokia', 'Oneplus', 'Oppo', 'Samsung', 'Sony', 'Vivo']
         choice = choicebox(msg, title, choices)
 
         if  choice=="Apple":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                         #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
         elif  choice=="Gionee":
             msg ="Which Vendor do You Prefer?"
-            title = "List Of Vendors"
+            title = "List Of Vendors"                                                                       #gives title to the msg box
             choices = [str(choice)+" Store","Croma","Reliance Digital","Vijay Sales"]
             choice = choicebox(msg, title, choices)
 
